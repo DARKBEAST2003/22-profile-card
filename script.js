@@ -6,4 +6,9 @@ themeToggle.addEventListener('change', () => {
   labelText.textContent = document.body.classList.contains('dark')
     ? 'Dark mode'
     : 'Light mode';
+  if (img.src.includes("img1.jpg")) {
+    img.src = "img3.jpg";
+  } else {
+    img.src = "img1.jpg";
+  }
 });
