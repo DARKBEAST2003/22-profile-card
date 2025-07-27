@@ -1,5 +1,6 @@
 const themeToggle = document.getElementById('themeCheckbox');
 const labelText = document.querySelector('.label-text');
+const img = document.querySelector('.profile-image');
 
 themeToggle.addEventListener('change', () => {
   document.body.classList.toggle('dark');
