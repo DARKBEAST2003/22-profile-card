@@ -1,0 +1,9 @@
+const themeToggle = document.getElementById('themeCheckbox');
+const labelText = document.querySelector('.label-text');
+
+themeToggle.addEventListener('change', () => {
+  document.body.classList.toggle('dark');
+  labelText.textContent = document.body.classList.contains('dark')
+    ? 'Dark mode'
+    : 'Light mode';
+});
