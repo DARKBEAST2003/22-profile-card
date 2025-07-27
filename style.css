@@ -235,3 +235,37 @@ body.dark .tiktok {
   box-shadow: inset 5px 5px 10px #1c1c1c, inset -5px -5px 10px #333;
   color: white;
 }
+
+.Projects {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.project a {
+  background: #e0e5ec;
+  color: #000dc4;
+  box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+  display: inline-block;
+  width: 100%;
+  margin: 8px 0;
+  padding: 8px 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 15px;
+}
+
+body.dark .project a {
+  background: #000dc4;
+  box-shadow: inset 5px 5px 10px #00087e, inset -5px -5px 10px #1323ff;
+  color: white;
+}
+
+.project a:hover {
+  transform: scale(1.05);
+}
